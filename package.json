@@ -1,0 +1,12 @@
+{
+  "name": "metric-call-sheets-slack",
+  "version": "1.0.0",
+  "description": "Slack /callsheet command that builds a Metric call sheet PDF",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@slack/bolt": "^3.22.0",
+    "pdfkit": "^0.15.0"
+  }
+}
